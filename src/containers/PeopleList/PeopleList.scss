@@ -1,0 +1,17 @@
+.people-container {
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 50px;
+	
+	.people_list {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		list-style: none;
+		margin: 15px 0;
+		padding: 10px;
+		background: rgb(233, 232, 226);
+		border-radius: 5px;
+		box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+	}
+}

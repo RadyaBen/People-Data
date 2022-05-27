@@ -1,0 +1,63 @@
+.filters-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+.filters_bar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 1em;
+	height: 320px;
+	background: #d8e0f0;
+	margin-top: 30px;
+	border-radius: 5px;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+	
+	.filters_header {
+		text-align: center;
+	}
+
+	.filters_input {
+		display: flex;
+		margin: 10px 0;
+		align-items: center;
+	}
+
+	.filters_input label {
+		flex-basis: 80px;
+		margin-left: 1.5em;
+	}
+
+	input[type="text"] {
+		width: 300px;
+		padding: 8px;
+		margin: 8px 0;
+		margin-left: 1em;
+		border: 3px solid #ccc;
+		font-size: 15px;
+		border-radius: 5px;
+		outline: none;
+		transition: 0.5s;
+	}
+}
+
+.filters_input.checkboxes {
+	display: inline-block;
+}
+
+input[type="checkbox"] {
+	margin: 10px 4px;
+}
+
+.filters_input.checkboxes #gender {
+	margin-right: 8px;
+}
+
+input[type="text"]:focus {
+	border: 3px solid #42aadf;
+}
