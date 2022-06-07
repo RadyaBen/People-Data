@@ -13,7 +13,7 @@
 * This is a single page web application where the data comes from a server and is displayed as a list of items that contains information about each person. 
 * There is an area with input fields for filters by first name, last name, age and gender. 
 * The main purpose of this application is to show how data filtering works.
-* The front-end part is developed with JavaScript, ReactJS, Redux, HTML, SASS. The back-end part is developed with Axios.
+* The front-end part is developed with JavaScript, ReactJS, Redux, HTML, SCSS. The back-end part is developed with Axios.
 
 ## Getting started
 
@@ -28,7 +28,7 @@
 * [Redux](https://redux.js.org/) - The web framework used
 * [Axios](https://axios-http.com/) - The promise based HTTP client for the browser and node.js used
 * [HTML](https://developer.mozilla.org/ru/docs/Web/HTML) - The HyperText Markup Language used
-* [SASS](https://sass-lang.com/) - The professional grade CSS extension language used
+* [SCSS](https://sass-lang.com/) - The main syntax for the SASS used
 
 ## Screenshots
 
